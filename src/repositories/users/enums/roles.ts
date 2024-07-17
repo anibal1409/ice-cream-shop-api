@@ -7,7 +7,7 @@ export enum UserRole {
 
 export const USER_ROLES_LIST = {
   [UserRole.Super]: 'Super usuario',
-  [UserRole.Manager]: 'Gerente',
-  [UserRole.SalesAdvisor]: 'Cajero',
-  [UserRole.WarehouseManager]: 'Jefe de almacén',
+  [UserRole.Manager]: 'Administrador',
+  [UserRole.SalesAdvisor]: 'Vendedor',
+  [UserRole.WarehouseManager]: 'Supervisor',
 };
