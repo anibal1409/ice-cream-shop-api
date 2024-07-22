@@ -90,6 +90,9 @@ export class ReportsService {
       },
       path: `${CustomAssetsPathFolder}/${_pdfName}.pdf`,
       type: '',
+      css: {
+        body: '.with-background-image',
+      },
     };
 
     try {
